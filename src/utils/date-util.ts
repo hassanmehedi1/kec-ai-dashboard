@@ -7,6 +7,8 @@ function formattedDate(value, type, inMs) {
   }
   const date = new Date(value);
   let options;
+  let result;
+
   switch (type) {
     case "date":
       options = {
@@ -22,12 +24,25 @@ function formattedDate(value, type, inMs) {
         minute: "numeric",
       };
       break;
+    case "dayName":
+      options = { weekday: "long" };
+      break;
     default:
       break;
   }
 
   // @ts-ignore
-  return new Intl.DateTimeFormat("en-us", options).format(date);
+  result = new Intl.DateTimeFormat("en-us", options).format(date);
+
+  // Extract day name if type is "date"
+  if (type === "date") {
+    const dayName = new Intl.DateTimeFormat("en-us", {
+      weekday: "long",
+    }).format(date);
+    return { formattedDate: result, dayName };
+  }
+
+  return result;
 }
 
 export { formattedDate };
