@@ -5,10 +5,10 @@ import WeatherBoard from "@/components/WeatherBoard";
 
 export default function Home() {
   return (
-    <section className="p-6 bg-[#e2ecfe] min-h-screen">
+    <section className="p-6 bg-[#e2ecfe]">
       <div className="grid grid-cols-3 justify-between max-w-full gap-3">
         <TotalVehicle />
-        <div className="">
+        <div>
           <WeatherBoard />
           <ChartBoard />
         </div>

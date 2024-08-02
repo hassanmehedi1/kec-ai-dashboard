@@ -13,7 +13,7 @@ import greenOval from "../assets/svgs/greenOval.svg";
 
 export default function TotalVehicle() {
   return (
-    <div className="min-h-screen space-y-2">
+    <div className="space-y-2">
       <h1 className="uppercase p-3 bg-[#283751] rounded-t-xl text-lg font-semibold text-white">
         total vehicle passing today 2393
       </h1>
@@ -38,10 +38,10 @@ export default function TotalVehicle() {
         </div>
 
         <div className="flex items-center gap-2 font-semibold">
-          <h1 className="p-6 bg-red-400/70 h-20 w-20 flex items-center justify-center">
+          <h1 className="p-6 bg-red-400/70 h-16 w-16 flex items-center justify-center">
             109
           </h1>
-          <h1 className="p-6 bg-green-400/70 h-20 w-20 flex items-center justify-center">
+          <h1 className="p-6 bg-green-400/70 h-16 w-16 flex items-center justify-center">
             157
           </h1>
         </div>
@@ -55,10 +55,10 @@ export default function TotalVehicle() {
         </div>
 
         <div className="flex items-center gap-2 font-semibold">
-          <h1 className="p-6 bg-red-400/70 h-20 w-20 flex items-center justify-center">
+          <h1 className="p-6 bg-red-400/70 h-16 w-16 flex items-center justify-center">
             109
           </h1>
-          <h1 className="p-6 bg-green-400/70 h-20 w-20 flex items-center justify-center">
+          <h1 className="p-6 bg-green-400/70 h-16 w-16 flex items-center justify-center">
             157
           </h1>
         </div>
@@ -72,10 +72,10 @@ export default function TotalVehicle() {
         </div>
 
         <div className="flex items-center gap-2 font-semibold">
-          <h1 className="p-6 bg-red-400/70 h-20 w-20 flex items-center justify-center">
+          <h1 className="p-6 bg-red-400/70 h-16 w-16 flex items-center justify-center">
             109
           </h1>
-          <h1 className="p-6 bg-green-400/70 h-20 w-20 flex items-center justify-center">
+          <h1 className="p-6 bg-green-400/70 h-16 w-16 flex items-center justify-center">
             157
           </h1>
         </div>
@@ -89,10 +89,10 @@ export default function TotalVehicle() {
         </div>
 
         <div className="flex items-center gap-2 font-semibold">
-          <h1 className="p-6 bg-red-400/70 h-20 w-20 flex items-center justify-center">
+          <h1 className="p-6 bg-red-400/70 h-16 w-16 flex items-center justify-center">
             109
           </h1>
-          <h1 className="p-6 bg-green-400/70 h-20 w-20 flex items-center justify-center">
+          <h1 className="p-6 bg-green-400/70 h-16 w-16 flex items-center justify-center">
             157
           </h1>
         </div>
@@ -106,10 +106,10 @@ export default function TotalVehicle() {
         </div>
 
         <div className="flex items-center gap-2 font-semibold">
-          <h1 className="p-6 bg-red-400/70 h-20 w-20 flex items-center justify-center">
+          <h1 className="p-6 bg-red-400/70 h-16 w-16 flex items-center justify-center">
             109
           </h1>
-          <h1 className="p-6 bg-green-400/70 h-20 w-20 flex items-center justify-center">
+          <h1 className="p-6 bg-green-400/70 h-16 w-16 flex items-center justify-center">
             157
           </h1>
         </div>
@@ -123,10 +123,10 @@ export default function TotalVehicle() {
         </div>
 
         <div className="flex items-center gap-2 font-semibold">
-          <h1 className="p-6 bg-red-400/70 h-20 w-20 flex items-center justify-center">
+          <h1 className="p-6 bg-red-400/70 h-16 w-16 flex items-center justify-center">
             109
           </h1>
-          <h1 className="p-6 bg-green-400/70 h-20 w-20 flex items-center justify-center">
+          <h1 className="p-6 bg-green-400/70 h-16 w-16 flex items-center justify-center">
             157
           </h1>
         </div>
@@ -140,10 +140,10 @@ export default function TotalVehicle() {
         </div>
 
         <div className="flex items-center gap-2 font-semibold">
-          <h1 className="p-6 bg-red-400/70 h-20 w-20 flex items-center justify-center">
+          <h1 className="p-6 bg-red-400/70 h-16 w-16 flex items-center justify-center">
             109
           </h1>
-          <h1 className="p-6 bg-green-400/70 h-20 w-20 flex items-center justify-center">
+          <h1 className="p-6 bg-green-400/70 h-16 w-16 flex items-center justify-center">
             157
           </h1>
         </div>
@@ -157,10 +157,10 @@ export default function TotalVehicle() {
         </div>
 
         <div className="flex items-center gap-2 font-semibold">
-          <h1 className="p-6 bg-red-400/70 h-20 w-20 flex items-center justify-center">
+          <h1 className="p-6 bg-red-400/70 h-16 w-16 flex items-center justify-center">
             109
           </h1>
-          <h1 className="p-6 bg-green-400/70 h-20 w-20 flex items-center justify-center">
+          <h1 className="p-6 bg-green-400/70 h-16 w-16 flex items-center justify-center">
             157
           </h1>
         </div>
@@ -174,10 +174,10 @@ export default function TotalVehicle() {
         </div>
 
         <div className="flex items-center gap-2 font-semibold">
-          <h1 className="p-6 bg-red-400/70 h-20 w-20 flex items-center justify-center">
+          <h1 className="p-6 bg-red-400/70 h-16 w-16 flex items-center justify-center">
             109
           </h1>
-          <h1 className="p-6 bg-green-400/70 h-20 w-20 flex items-center justify-center">
+          <h1 className="p-6 bg-green-400/70 h-16 w-16 flex items-center justify-center">
             157
           </h1>
         </div>
@@ -191,10 +191,10 @@ export default function TotalVehicle() {
         </div>
 
         <div className="flex items-center gap-2 font-semibold">
-          <h1 className="p-6 bg-red-400/70 h-20 w-20 flex items-center justify-center">
+          <h1 className="p-6 bg-red-400/70 h-16 w-16 flex items-center justify-center">
             109
           </h1>
-          <h1 className="p-6 bg-green-400/70 h-20 w-20 flex items-center justify-center">
+          <h1 className="p-6 bg-green-400/70 h-16 w-16 flex items-center justify-center">
             157
           </h1>
         </div>
