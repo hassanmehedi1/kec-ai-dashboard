@@ -121,7 +121,7 @@ export function ChartBoard() {
                 by car type
               </h1> */}
 
-              <ul className="font-semibold">
+              <ul className="font-semibold space-y-2">
                 <li className="flex items-center justify-between">
                   <span className="block">Trailer</span>
                   <span className="text-blue-800 font-bold block">05</span>
