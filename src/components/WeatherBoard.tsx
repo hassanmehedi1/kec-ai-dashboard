@@ -19,7 +19,9 @@ export default function WeatherBoard() {
     sunrise: 0,
     sunset: 0,
   });
+
   const [loading, setLoading] = useState(false);
+  console.log(loading);
 
   const fetchWeatherData = async () => {
     try {

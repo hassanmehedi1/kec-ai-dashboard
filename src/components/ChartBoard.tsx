@@ -1,24 +1,9 @@
-import {
-  Label,
-  Pie,
-  PieChart,
-  Area,
-  AreaChart,
-  CartesianGrid,
-  XAxis,
-} from "recharts";
+import { Label, Pie, PieChart } from "recharts";
 import redOval from "../assets/svgs/darkRedOval.svg";
 import yellowOval from "../assets/svgs/yellowOval.svg";
 import blueOval from "../assets/svgs/blueOval.svg";
 
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
+import { Card, CardContent } from "@/components/ui/card";
 import {
   ChartConfig,
   ChartContainer,
